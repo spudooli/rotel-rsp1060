@@ -7,11 +7,7 @@
 import serial
 import sys
 import binascii
-import urlparse
 import os
-
-
-#url = os.environ["REQUEST_URI"]
 
 ser = serial.Serial(
         port='/dev/ttyUSB0',
@@ -452,12 +448,6 @@ def sendCmd(cmd):
    else:
       return "Command not found."
 
-#Good for testing on the command line
-#url = "/rotel.py?command=MuteToggle"
-#print url
-
-#parsed = urlparse.urlparse(url)
-#rotelcommand = urlparse.parse_qs(parsed.query)['command']
 rotelcommand = sys.argv[1]
 print rotelcommand
 sendCmd(rotelcommand)
