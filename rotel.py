@@ -11,7 +11,7 @@ import urlparse
 import os
 
 
-url = os.environ["REQUEST_URI"]
+#url = os.environ["REQUEST_URI"]
 
 ser = serial.Serial(
         port='/dev/ttyUSB0',
@@ -30,7 +30,7 @@ rsp1069 = {
   "VolumeUp": "FE 03 A2 10 0B E7",
   "VolumeDown": "FE 03 A2 10 0C E8",
   "MuteToggle": "FE 03 A2 10 1E FA",
-  "PowerOffAllZones": "FE 03 A2 10 71 4D"
+  "PowerOffAllZones": "FE 03 A2 10 71 4D",
 
     # SOURCE SELECTION COMMANDS 
   "SourceCD": "FE 03 A2 10 02 DE",
@@ -456,7 +456,8 @@ def sendCmd(cmd):
 #url = "/rotel.py?command=MuteToggle"
 #print url
 
-parsed = urlparse.urlparse(url)
-rotelcommand = urlparse.parse_qs(parsed.query)['command']
-
+#parsed = urlparse.urlparse(url)
+#rotelcommand = urlparse.parse_qs(parsed.query)['command']
+rotelcommand = sys.argv[1]
+print rotelcommand
 sendCmd(rotelcommand)
