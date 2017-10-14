@@ -20,7 +20,7 @@ ser = serial.Serial(
 
 rsp1069 = {
   # POWER & VOLUME COMMANDS
-  "PowerToggle": "FE 03 A2 10 0A E6",
+  "PowerToggle": "FE 03 A2 10 0A BF",
   "PowerOff": "FE 03 A2 10 4A FF",
   "PowerOn": "FE 03 A2 10 4B 27",
   "VolumeUp": "FE 03 A2 10 0B E7",
@@ -29,7 +29,7 @@ rsp1069 = {
   "PowerOffAllZones": "FE 03 A2 10 71 4D",
 
     # SOURCE SELECTION COMMANDS 
-  "SourceCD": "FE 03 A2 10 02 DE",
+  "SourceCD": "FE 03 A2 10 02 B7",
   "SourceTuner": "FE 03 A2 10 03 DF",
   "SourceTape": "FE 03 A2 10 04 E0",
   "SourceVideo1": "FE 03 A2 10 05 E1",
@@ -40,8 +40,8 @@ rsp1069 = {
   "SourceMultiInput": "FE 03 A2 10 15 F1",
     
   # SURROUND MODE COMMANDS  
-  "Stereo": "FE 03 A2 10 11 ED",
-  "Dolby3Stereo": "FE 03 A2 10 12 EE",
+  "Stereo": "FE 03 A2 10 11 C6",
+  "Dolby3Stereo": "FE 03 A2 10 12 C7",
   "DolbyProLogic": "FE 03 A2 10 13 EF",
   "DSPToggle": "FE 03 A2 10 14 F0",
   "Dolby3StereoToggle": "FE 03 A2 10 53 2F",
@@ -149,7 +149,6 @@ rsp1069 = {
   "MainZoneVolumeDownVideo3": "FE 03 A2 14 07 E7",
   "MainZoneVolumeDownVideo4": "FE 03 A2 14 08 E8",
   "MainZoneVolumeDownVideo5": "FE 03 A2 14 09 E9",
-  "MainZoneVolumeDownMultiInput": "FE 03 A2 14 15 F5",
     
   # RECORD SOURCE SELECTION COMMANDS
   "RecordSourceCD": "FE 03 A2 15 02 E3",
@@ -163,7 +162,7 @@ rsp1069 = {
   "RecordFollowMainZoneVolumeDown6": "FE 03 A2 15 6B 4C",
 
   # Zone2POWER & VOLUME COMMANDS
-  "Zone2PowerToggle": "FE 03 A2 16 0A EC",
+  "Zone2PowerToggle": "FE 03 A2 16 0A C5",
   "Zone2PowerOff": "FE 03 A2 16 4A 2C",
   "Zone2PowerOn": "FE 03 A2 16 4B 2D",
   "Zone2VolumeUp": "FE 03 A2 16 00 E2",
@@ -340,9 +339,9 @@ rsp1069 = {
   "Volume15": "FE 03 A2 30 0F 0B",
   "Volume16": "FE 03 A2 30 10 0C",
   "Volume32": "FE 03 A2 30 20 1C",
-  "Volume48": "FE 03 A2 30 30 2C",
-  "Volume64": "FE 03 A2 30 40 3C",
-  "Volume80": "FE 03 A2 30 50 4C",
+  "Volume48": "FE 03 A2 30 30 05",
+  "Volume64": "FE 03 A2 30 40 15",
+  "Volume80": "FE 03 A2 30 50 25",
   "Volume95": "FE 03 A2 30 5F 5B",
     
   #"ZONE 2 VOLUME DIRECT COMMANDS", 
