@@ -163,8 +163,8 @@ rsp1069 = {
 
   # Zone2POWER & VOLUME COMMANDS
   "Zone2PowerToggle": "FE 03 A2 16 0A C5",
-  "Zone2PowerOff": "FE 03 A2 16 4A 2C",
-  "Zone2PowerOn": "FE 03 A2 16 4B 2D",
+  "Zone2PowerOff": "FE 03 A2 16 4A 05",
+  "Zone2PowerOn": "FE 03 A2 16 4B 06",
   "Zone2VolumeUp": "FE 03 A2 16 00 E2",
   "Zone2VolumeDown": "FE 03 A2 16 01 E3",
   "Zone2MuteToggle": "FE 03 A2 16 1E 00",
@@ -173,7 +173,7 @@ rsp1069 = {
   "PowerOffAllZones": "FE 03 A2 16 71 53",
     
   # ZONE 2 SOURCE SELECTION COMMANDS
-  "Zone2SourceCD": "FE 03 A2 16 02 E4",
+  "Zone2SourceCD": "FE 03 A2 16 02 BD",
   "Zone2SourceTuner": "FE 03 A2 16 03 E5",
   "Zone2SourceTape": "FE 03 A2 16 04 E6",
   "Zone2SourceVideo1": "FE 03 A2 16 05 E7",
@@ -364,8 +364,8 @@ rsp1069 = {
   "Zone2Volume16":"FE 03 A2 32 10 0E",
   "Zone2Volume32":"FE 03 A2 32 20 1E",
   "Zone2Volume48":"FE 03 A2 32 30 2E",
-  "Zone2Volume64":"FE 03 A2 32 40 3E",
-  "Zone2Volume80":"FE 03 A2 32 50 4E",
+  "Zone2Volume64":"FE 03 A2 32 40 17",
+  "Zone2Volume80":"FE 03 A2 32 50 27",
   "Zone2Volume89":"FE 03 A2 32 5F 57",
     
   # ZONE 3 VOLUME DIRECT COMMANDS
