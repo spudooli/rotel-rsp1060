@@ -216,8 +216,8 @@ rsp1069 = {
     
   # ZONE 3 POWER & VOLUME COMMANDS
   "Zone3PowerToggle": "FE 03 A2 17 0A ED",
-  "Zone3PowerOff": "FE 03 A2 17 4A 2D",
-  "Zone3PowerOn": "FE 03 A2 17 4B 2E",
+  "Zone3PowerOff": "FE 03 A2 17 4A 06",
+  "Zone3PowerOn": "FE 03 A2 17 4B 07",
   "Zone3VolumeUp": "FE 03 A2 17 00 E3",
   "Zone3VolumeDown": "FE 03 A2 17 01 E4",
   "Zone3MuteToggle": "FE 03 A2 17 1E 01",
@@ -226,7 +226,7 @@ rsp1069 = {
   "PowerOffAllZones": "FE 03 A2 17 71 54",
     
   # Zone 3 SOURCE SELECTION COMMANDS
-  "Zone3SourceCD": "FE 03 A2 17 02 E5",
+  "Zone3SourceCD": "FE 03 A2 17 02 BE",
   "Zone3SourceTuner": "FE 03 A2 17 03 E6",
   "Zone3SourceTape":  "FE 03 A2 17 04 E7",
   "Zone3SourceVideo1":"FE 03 A2 17 05 E8",
@@ -382,8 +382,8 @@ rsp1069 = {
   "Zone3Number10":"FE 03 A2 33 0A 09",
   "Zone3Number16": "FE 03 A2 33 10 0F",
   "Zone3Number32": "FE 03 A2 33 20 1F",
-  "Zone3Number48": "FE 03 A2 33 30 2F",
-  "Zone3Number64": "FE 03 A2 33 40 3F",
+  "Zone3Number48": "FE 03 A2 33 30 08",
+  "Zone3Number64": "FE 03 A2 33 40 18",
   "Zone3Number80": "FE 03 A2 33 50 4F",
   "Zone3Number89": "FE 03 A2 33 5F 58",
     
