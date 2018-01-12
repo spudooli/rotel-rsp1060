@@ -22,7 +22,7 @@ rsp1069 = {
   # POWER & VOLUME COMMANDS
   "PowerToggle": "FE 03 A2 10 0A BF",
   "PowerOff": "FE 03 A2 10 4A FF",
-  "PowerOn": "FE 03 A2 10 4B 27",
+  "PowerOn": "FE 03 A2 10 4B 00",
   "VolumeUp": "FE 03 A2 10 0B E7",
   "VolumeDown": "FE 03 A2 10 0C E8",
   "MuteToggle": "FE 03 A2 10 1E FA",
