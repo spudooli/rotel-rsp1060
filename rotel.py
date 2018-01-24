@@ -28,18 +28,18 @@ rsp1069 = {
   "MuteToggle": "FE 03 A2 10 1E FA",
   "PowerOffAllZones": "FE 03 A2 10 71 4D",
 
-    # SOURCE SELECTION COMMANDS 
+    # SOURCE SELECTION COMMANDS
   "SourceCD": "FE 03 A2 10 02 B7",
-  "SourceTuner": "FE 03 A2 10 03 DF",
+  "SourceTuner": "FE 03 A2 10 03 B8",
   "SourceTape": "FE 03 A2 10 04 E0",
-  "SourceVideo1": "FE 03 A2 10 05 E1",
-  "SourceVideo2": "FE 03 A2 10 06 E2",
-  "SourceVideo3": "FE 03 A2 10 07 E3",
-  "SourceVideo4": "FE 03 A2 10 08 E4",
-  "SourceVideo5": "FE 03 A2 10 09 E5",
+  "SourceVideo1": "FE 03 A2 10 05 BA",
+  "SourceVideo2": "FE 03 A2 10 06 BB",
+  "SourceVideo3": "FE 03 A2 10 07 BC",
+  "SourceVideo4": "FE 03 A2 10 08 BD",
+  "SourceVideo5": "FE 03 A2 10 09 BE",
   "SourceMultiInput": "FE 03 A2 10 15 F1",
-    
-  # SURROUND MODE COMMANDS  
+
+  # SURROUND MODE COMMANDS
   "Stereo": "FE 03 A2 10 11 C6",
   "Dolby3Stereo": "FE 03 A2 10 12 C7",
   "DolbyProLogic": "FE 03 A2 10 13 EF",
@@ -65,22 +65,22 @@ rsp1069 = {
   "PLIIxCenterWidthDown": "FE 03 A2 10 66 42",
   "DolbyDigitalEXToggle": "FE 03 A2 10 68 44",
   "NextSurroundMode": "FE 03 A2 10 22 FD 01",
-    
+
   # TONE CONTROL COMMANDS
   "TrebleUp": "FE 03 A2 10 0D E9",
   "TrebleDown": "FE 03 A2 10 0E EA",
   "BassUp": "FE 03 A2 10 0F EB",
   "BassDown": "FE 03 A2 10 10 EC",
   "ToneControlSelectOSD": "FE 03 A2 10 67 43",
-    
-  # MENU COMMANDS 
+
+  # MENU COMMANDS
   "OSDMenu": "FE 03 A2 10 18 F4",
   "Enter": "FE 03 A2 10 19 F5",
   "CursorRight": "FE 03 A2 10 1A F6",
   "CursorLeft": "FE 03 A2 10 1B F7",
   "CursorUp": "FE 03 A2 10 1C F8",
   "CursorDown": "FE 03 A2 10 1D F9",
-    
+
   # TUNER COMMANDS
   "TuneUp": "FE 03 A2 10 28 04",
   "TuneDown": "FE 03 A2 10 29 05",
@@ -102,8 +102,8 @@ rsp1069 = {
   "RDSTP": "FE 03 A2 10 46 22",
   "RDSTA": "FE 03 A2 10 47 23",
   "FMMono": "FE 03 A2 10 26 02",
-    
-  # NUMERIC KEY COMMANDS  
+
+  # NUMERIC KEY COMMANDS
   "Number1": "FE 03 A2 10 2A 06",
   "Number2": "FE 03 A2 10 2B 07",
   "Number3": "FE 03 A2 10 2C 08",
@@ -124,12 +124,12 @@ rsp1069 = {
   "CinemaEQToggle": "FE 03 A2 10 4F 2B",
   "FrontDisplayToggle": "FE 03 A2 10 52 2E",
   "DisplayRefresh": "FE 03 A2 10 FF DB",
-  "PartyModeToggle": "FE 03 A2 10 6E 4A",
+  "PartyModeToggle": "FE 03 A2 10 6E 23",
   "OutputResolution": "FE 03 A2 10 75 51",
   "HDMIAmpMode": "FE 03 A2 10 78 54",
   "HDMITVMode": "FE 03 A2 10 79 55",
   #  "ForceFactoryDefault": "FE 03 A2 10 93 6F",
-    
+
   # MAIN ZONE POWER & VOLUME COMMANDS
   "MainZonePowerToggle":"FE 03 A2 14 0A EA",
   "MainZonePowerOff": "FE 03 A2 14 4A 2A",
@@ -139,7 +139,7 @@ rsp1069 = {
   "MainZoneMuteToggle":"FE 03 A2 14 1E FD 01",
   "MainZoneMuteOn": "FE 03 A2 14 6C 4C",
   "MainZoneMute Off": "FE 03 A2 14 6D 4D",
-    
+
   # MAIN ZONE SOURCE SELECTION COMMANDS
   "MainZoneVolumeDownCD": "FE 03 A2 14 02 E2",
   "MainZoneVolumeDownTuner": "FE 03 A2 14 03 E3",
@@ -149,7 +149,7 @@ rsp1069 = {
   "MainZoneVolumeDownVideo3": "FE 03 A2 14 07 E7",
   "MainZoneVolumeDownVideo4": "FE 03 A2 14 08 E8",
   "MainZoneVolumeDownVideo5": "FE 03 A2 14 09 E9",
-    
+
   # RECORD SOURCE SELECTION COMMANDS
   "RecordSourceCD": "FE 03 A2 15 02 E3",
   "RecordSourceTuner": "FE 03 A2 15 03 E4",
@@ -171,7 +171,7 @@ rsp1069 = {
   "Zone2MuteOn": "FE 03 A2 16 6C 4E",
   "Zone2MuteOff": "FE 03 A2 16 6D 4F",
   "PowerOffAllZones": "FE 03 A2 16 71 53",
-    
+
   # ZONE 2 SOURCE SELECTION COMMANDS
   "Zone2SourceCD": "FE 03 A2 16 02 BD",
   "Zone2SourceTuner": "FE 03 A2 16 03 E5",
@@ -198,7 +198,7 @@ rsp1069 = {
   "Zone2PresetModeSelect": "FE 03 A2 16 6A 4C",
   "Zone2PresetScan": "FE 03 A2 16 21 03",
   "Zone2FMMono": "FE 03 A2 16 26 08",
-    
+
   # ZONE 2 NUMERIC KEY COMMANDS
   "Zone2Number1": "FE 03 A2 16 2A 0C",
   "Zone2Number2": "FE 03 A2 16 2B 0D",
@@ -210,10 +210,10 @@ rsp1069 = {
   "Zone2Number8": "FE 03 A2 16 31 13",
   "Zone2Number9": "FE 03 A2 16 32 14",
   "Zone2Number0": "FE 03 A2 16 33 15",
-    
-  # ZONE 2 OTHER COMMANDS 
+
+  # ZONE 2 OTHER COMMANDS
   "PartyModeToggle":  "FE 03 A2 16 6E 50",
-    
+
   # ZONE 3 POWER & VOLUME COMMANDS
   "Zone3PowerToggle": "FE 03 A2 17 0A ED",
   "Zone3PowerOff": "FE 03 A2 17 4A 06",
@@ -224,7 +224,7 @@ rsp1069 = {
   "Zone3MuteOn": "FE 03 A2 17 6C 4F",
   "Zone3MuteOff": "FE 03 A2 17 6D 50",
   "PowerOffAllZones": "FE 03 A2 17 71 54",
-    
+
   # Zone 3 SOURCE SELECTION COMMANDS
   "Zone3SourceCD": "FE 03 A2 17 02 BE",
   "Zone3SourceTuner": "FE 03 A2 17 03 E6",
@@ -235,7 +235,7 @@ rsp1069 = {
   "Zone3SourceVideo4":"FE 03 A2 17 08 EB",
   "Zone3SourceVideo5":"FE 03 A2 17 09 EC",
   "Zone3FollowMainZoneSource":"FE 03 A2 17 6B 4E",
-    
+
   # ZONE 3 TUNER COMMANDS
   "Zone3TuneUp":  "FE 03 A2 17 28 0B",
   "Zone3TuneDown": "FE 03 A2 17 29 0C",
@@ -251,8 +251,8 @@ rsp1069 = {
   "Zone3PresetModeSelect": "FE 03 A2 17 6A 4D",
   "Zone3PresetScan": "FE 03 A2 17 21 04",
   "Zone3FMMono": "FE 03 A2 17 26 09",
-    
-  # ZONE 3 NUMERIC KEY COMMANDS", 
+
+  # ZONE 3 NUMERIC KEY COMMANDS",
   "Zone3Number1": "FE 03 A2 17 2A 0D",
   "Zone3Number2": "FE 03 A2 17 2B 0E",
   "Zone3Number3": "FE 03 A2 17 2C 0F",
@@ -263,10 +263,10 @@ rsp1069 = {
   "Zone3Number8": "FE 03 A2 17 31 14",
   "Zone3Number9": "FE 03 A2 17 32 15",
   "Zone3Number0": "FE 03 A2 17 33 16",
-    
+
   # ZONE 3 OTHER COMMANDS
   "PartyModeToggle":  "FE 03 A2 17 6E 51",
-    
+
   # ZONE 4 POWER & VOLUME COMMANDS
   "Zone4PowerToggle": "FE 03 A2 18 0A EE",
   "Zone4PowerOff": "FE 03 A2 18 4A 2E",
@@ -277,8 +277,8 @@ rsp1069 = {
   "Zone4MuteOn": "FE 03 A2 18 6C 50",
   "Zone4MuteOff": "FE 03 A2 18 6D 51",
   "PowerOffAllZones": "FE 03 A2 18 71 55",
-    
-  # ZONE 4 SOURCE SELECTION COMMANDS  
+
+  # ZONE 4 SOURCE SELECTION COMMANDS
   "Zone4SourceCD": "FE 03 A2 18 02 E6",
   "Zone4SourceTuner": "FE 03 A2 18 03 E7",
   "Zone4SourceTape": "FE 03 A2 18 04 E8",
@@ -288,8 +288,8 @@ rsp1069 = {
   "Zone4SourceVideo 4": "FE 03 A2 18 08 EC",
   "Zone4SourceVideo 5": "FE 03 A2 18 09 ED",
   "Zone 4 Follow Main Zone Source": "FE 03 A2 18 6B 4F",
-    
-  # ZONE 4 TUNER COMMANDS 
+
+  # ZONE 4 TUNER COMMANDS
   "Zone4TuneUp":  "FE 03 A2 18 28 0C",
   "Zone 4 TuneDown":  "FE 03 A2 18 29 0D",
   "Zone 4 Preset Up": "FE 03 A2 18 6F 53",
@@ -304,8 +304,8 @@ rsp1069 = {
   "Zone 4 Preset Mode Select": "FE 03 A2 18 6A 4E",
   "Zone 4 Preset Scan": "FE 03 A2 18 21 05",
   "Zone 4 FM Mono": "FE 03 A2 18 26 0A",
-    
-  # ZONE 4 NUMERIC KEY COMMANDS 
+
+  # ZONE 4 NUMERIC KEY COMMANDS
   "Zone4Number1": "FE 03 A2 18 2A 0E",
   "Zone4Number2": "FE 03 A2 18 2B 0F",
   "Zone4Number3": "FE 03 A2 18 2C 10",
@@ -316,11 +316,11 @@ rsp1069 = {
   "Zone4Number8": "FE 03 A2 18 31 15",
   "Zone4Number9": "FE 03 A2 18 32 16",
   "Zone4Number0": "FE 03 A2 18 33 17",
-    
-  # ZONE 4 OTHER COMMANDS 
+
+  # ZONE 4 OTHER COMMANDS
   "Party Mode Toggle Table":  "FE 03 A2 18 6E 52",
-    
-  # VOLUME DIRECT COMMANDS  
+
+  # VOLUME DIRECT COMMANDS
   "VolumeMin":  "FE 03 A2 30 00 FC",
   "Volume1":  "FE 03 A2 30 01 FD",
   "Volume2":  "FE 03 A2 30 02 FD",
@@ -343,8 +343,8 @@ rsp1069 = {
   "Volume64": "FE 03 A2 30 40 15",
   "Volume80": "FE 03 A2 30 50 25",
   "Volume95": "FE 03 A2 30 5F 5B",
-    
-  #"ZONE 2 VOLUME DIRECT COMMANDS", 
+
+  #"ZONE 2 VOLUME DIRECT COMMANDS",
   "Zone2VolumeMin":"FE 03 A2 32 00 FD",
   "Zone2Volume1": "FE 03 A2 32 01 FF",
   "Zone2Volume2": "FE 03 A2 32 02 00",
@@ -367,7 +367,7 @@ rsp1069 = {
   "Zone2Volume64":"FE 03 A2 32 40 17",
   "Zone2Volume80":"FE 03 A2 32 50 27",
   "Zone2Volume89":"FE 03 A2 32 5F 57",
-    
+
   # ZONE 3 VOLUME DIRECT COMMANDS
   "Zone3NumberMin": "FE 03 A2 33 00 FF",
   "Zone3Number1": "FE 03 A2 33 01 00",
@@ -386,7 +386,7 @@ rsp1069 = {
   "Zone3Number64": "FE 03 A2 33 40 18",
   "Zone3Number80": "FE 03 A2 33 50 4F",
   "Zone3Number89": "FE 03 A2 33 5F 58",
-    
+
   # ZONE 4 VOLUME DIRECT COMMANDS
   "Zone4NumberMin": "FE 03 A2 34 00 00",
   "Zone4Number1": "FE 03 A2 34 01 01",
@@ -404,7 +404,7 @@ rsp1069 = {
   "Zone4Number48": "FE 03 A2 34 30 30",
   "Zone4Number64": "FE 03 A2 34 40 40",
   "Zone4Number80": "FE 03 A2 34 50 50",
-    
+
   # TRIGGER DIRECT COMMANDS
   "MainZone12VTrigger1Toggle": "FE 03 A2 40 00 0C",
   "MainZone12VTrigger2Toggle": "FE 03 A2 40 01 0D",
@@ -429,7 +429,7 @@ rsp1069 = {
   "Zone412VTrigger3Toggle": "FE 03 A2 40 14 20",
   "Zone412VTrigger4Toggle": "FE 03 A2 40 15 21",
   "Zone412VTrigger5Toggle": "FE 03 A2 40 16 22",
-  "Zone412VTrigger6Toggle": "FE 03 A2 40 17 23"   
+  "Zone412VTrigger6Toggle": "FE 03 A2 40 17 23"
 }
 
 def formatData(data):
